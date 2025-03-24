@@ -1,7 +1,7 @@
 
 let ol: HTMLOListElement | undefined
 
-export default function breadcrumb(heading: HTMLHeadingElement)
+export function breadcrumb(heading: HTMLHeadingElement)
 {
 	const article = heading.closest<HTMLElement>('main > [data-action]')
 	if (!article) return
