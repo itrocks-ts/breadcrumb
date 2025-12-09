@@ -5,8 +5,8 @@
 	},
 	"description": "Dynamically updates the breadcrumb based on containers with data-action 'list' or 'view'",
 	"devDependencies": {
-		"@types/node": "^22.9",
-		"typescript": "~5.8"
+		"@types/node": "^24.10",
+		"typescript": "~5.9"
 	},
 	"files": [
 		"LICENSE",
@@ -31,5 +31,5 @@
 	},
 	"type": "module",
 	"types": "./breadcrumb.d.ts",
-	"version": "0.0.6"
+	"version": "0.0.7"
 }
